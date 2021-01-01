@@ -124,7 +124,7 @@ soit: sélectionner le parent de celui que l'on veut changer:
 Dans vim: Taper 'i' et remplacer `pick` par `edit` sur le commit 05 + ESC + :wq
 
 Entrer ensuite un  `$ git add .`   
-Suivi d'un `$ git commit –amend –author "Me, the challenger"` 
+Suivi d'un `$ git commit –-amend –-author "Me, the challenger"` 
 
     [detached HEAD 7d437e9] 05- debugging
      Date: Thu Dec 31 10:01:45 2020 +0100
@@ -133,7 +133,7 @@ Suivi d'un `$ git commit –amend –author "Me, the challenger"`
  
 Dans vim, juste faire ESC+ :wq pour sauver et quitter.
 
-Terminer avec un  `$ git rebase –continue`  pour valider les changements:   
+Terminer avec un  `$ git rebase –-continue`  pour valider les changements:   
 
      Successfully rebased and updated refs/heads/master.
 
