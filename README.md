@@ -140,10 +140,10 @@ Terminer avec un  `$ git rebase –continue`  pour valider les changements:
 Faire un git log ID pour vérifier l'auteur du commit 05:
 
     $ git log 64fddfa
-    commit 64fddfadbef1ffdde5d1485b19adb9e14aee4067
-    Author: LE Pompier <super.pompier@debugland.com>
+    commit 7e03f758a8d140e2adbde8615e05c54c9a887f16
+    Author: Me, the Challenger <challenger@challengeland.com>
     Date:   Thu Dec 31 10:01:45 2020 +0100
-        05- debugging
+    05- debugging
 
 tape "q" to quit
 
